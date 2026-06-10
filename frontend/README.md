@@ -1,16 +1,120 @@
-# React + Vite
+# University Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+University Blog App is a full-stack blogging platform that allows users to register, log in, create posts, comment on posts, like content, manage profiles, and interact with other users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application was built using React, Node.js, Express, MySQL, and JWT Authentication.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### Authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* User Registration
+* User Login
+* JWT Authentication
+* Protected Routes
+
+### Blog Features
+
+* Create Posts
+* Edit Posts
+* Delete Posts
+* View All Posts
+* Search Posts
+* My Posts Dashboard
+
+### Social Features
+
+* Comment System
+* Like System
+* User Profiles
+
+### UI Features
+
+* Dark Mode
+* Responsive Design
+* Navigation Bar
+* Dashboard Overview
+
+---
+
+## Technologies Used
+
+### Frontend
+
+* React
+* React Router DOM
+* Axios
+* Bootstrap
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MySQL
+
+### Authentication
+
+* JWT (JSON Web Tokens)
+* bcryptjs
+
+---
+
+## Installation
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Database Setup
+
+Create a MySQL database named:
+
+```sql
+university_blog
+```
+
+Import the SQL tables included in the project.
+
+---
+
+## Future Improvements
+
+* Image Uploads
+* Categories & Tags
+* User Avatars
+* Notifications
+* Admin Dashboard
+* Bookmark Posts
+
+---
+
+## Author
+
+Wendy Mohapi
+
+LinkedIn:
+https://linkedin.com/in/wendy-mohapi-834092272/
+
+GitHub:
+https://github.com/wendiimoh
