@@ -119,3 +119,32 @@ https://linkedin.com/in/wendy-mohapi-834092272/
 
 GitHub:
 https://github.com/wendiimoh
+## Screenshots
+
+### Login Page
+
+![Login](screenshots/Login.png)
+
+### Register Page
+
+![Register](screenshots/Register.png)
+
+### Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
+
+### Create Post
+
+![Create Post](screenshots/CreatePost.png)
+
+### My Posts
+
+![My Posts](screenshots/MyPosts.png)
+
+### Profile
+
+![Profile](screenshots/Profile.png)
+
+### Dark Mode
+
+![Dark Mode](screenshots/Darkmode.png)
